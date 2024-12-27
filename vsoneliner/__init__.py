@@ -23,7 +23,7 @@
 # SOFTWARE.
 # ---------------------------------------------------------------------
 
-__version__ = "0.0.2"
+__version__ = "0.0.2.post1"
 
 # Thanks to arch1t3cht for giving the idea of using this to bypass importing main
 def start(args):
