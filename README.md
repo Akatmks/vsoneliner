@@ -9,7 +9,7 @@ python -m pip install vsoneliner
 
 An Example of using vsoneliner using [fish shell](https://fishshell.com/):  
 ```fish
-INPUT=(realpath "input.mkv") vspipe (python -m vsoneliner "import mvsfunc as mvf" "r\"$INPUT\" |> core.lsmas.LWLibavSource |> mvf.Depth\$(depth=10) |> .set_output()") -c y4m - | x264 --demuxer y4m --output "output.mkv" -
+INPUT=(realpath "input.mkv") av1an -i (python -m vsoneliner "import mvsfunc as mvf" "r\"$INPUT\" |> core.lsmas.LWLibavSource |> mvf.Depth\$(depth=10) |> .set_output()") -o "output.mkv" -
 ```
 Excerpt:  
 ```
